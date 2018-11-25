@@ -1,0 +1,29 @@
+html {
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+}
+
+body {
+	height: 800px;
+	width: 100%;
+}
+
+.container-game {
+	border: 6px solid pink;
+	outline-style: solid;
+	margin: 0 auto;
+}
+
+.container-top-list {
+    display: flex;
+    justify-content: center;
+}
+
+.container-instructions {
+	font-weight: bold;
+	text-align: center;
+}
+
+.error-message {
+    color: firebrick;
+}
