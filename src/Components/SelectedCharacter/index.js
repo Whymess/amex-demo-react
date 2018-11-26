@@ -7,12 +7,14 @@ export default props => {
 
   return (
     <div className="container">
-      {isLoaded === false ? <LoadingSpinner /> : ""}
-
-      {dataToShow &&
+      {isLoaded === false ? (
+        <LoadingSpinner />
+      ) : (
+        dataToShow &&
         dataToShow.map((el, i) => {
           return <CardInfo key={i} {...el} />;
-        })}
+        })
+      )}
     </div>
   );
 };
