@@ -1,4 +1,4 @@
-    export default {
+export default {
       "characters": [
         {
           "name": "Luke Skywalker",
