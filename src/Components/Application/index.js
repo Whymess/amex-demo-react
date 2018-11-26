@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Application.css";
 import { SelectedCharacter, ListAvailableCharacter } from "../../Components/";
-import data from "../../Data/";
+import data from "../../Data/index.json";
 import { returnArray } from "../../Helpers/";
 
 export default class Application extends Component {
